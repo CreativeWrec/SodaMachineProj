@@ -10,8 +10,8 @@ namespace SodaMachine
     {
         static void Main(string[] args)
         {
-            SodaMachine sodaMachine = new SodaMachine();
-            sodaMachine.RunMachine();
+            Simulation simulation = new Simulation();
+            simulation;
         }
     }
 }

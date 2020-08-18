@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class SodaMachine
+    class Card
     {
         //Member Variables(Has A)
-
+        private double availableFunds;
+        public double AvailableFunds;
         //Constructor
-        public SodaMachine()
+        public Card()
         {
-            
 
         }
         //Methods(Can Do)
-     
+
     }
 }

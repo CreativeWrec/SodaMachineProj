@@ -10,7 +10,13 @@ namespace SodaMachine
     {
         //Member Variables(Has A)
         protected double cost;
-        public double Cost;
+        public double Cost
+        {
+            get
+            {
+                return cost
+            }
+        }
         public string name;
       //Constructor
       public Can()

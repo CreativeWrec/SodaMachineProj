@@ -8,5 +8,9 @@ namespace SodaMachine
 {
     static class UserInterface
     {
+        public static void DisplayOpeningMessage()
+        {
+            Console.WriteLine("Welcome to the soda machine!");
+        }
     }
 }

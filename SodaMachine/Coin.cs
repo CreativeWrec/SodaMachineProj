@@ -16,7 +16,8 @@ namespace SodaMachine
         //Constructor
         public Coin()
         {
-
+            value { Get };
+            Value { Get };
         }
         //Methods(Can Do)
 

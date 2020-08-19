@@ -20,6 +20,7 @@ namespace SodaMachine
             InsertChangeInRegister();
 
 
+
         }
         //Methods(Can Do)
         public void InsertChangeInRegister()
@@ -48,13 +49,14 @@ namespace SodaMachine
 
         }
 
-        public void PricePerCan()
+        public void InsertSodasInMachine()
         {
-            for (int i = 60; i > inventory.Count; i++)
+            for (int i = 0; i < 10; i++)
             {
                 RootBeer rootBeer = new RootBeer();
-                inventory.ForEach
+                inventory.Add(rootBeer);
             }
+
         }
      
     }

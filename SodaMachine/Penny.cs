@@ -8,5 +8,16 @@ namespace SodaMachine
 {
     class Penny : Coin
     {
+        // mem vars/properties
+        
+
+        // constructors
+        public Penny()
+        {
+            value = .01;
+            name = "Penny";
+        }
+
+        // mem methods
     }
 }

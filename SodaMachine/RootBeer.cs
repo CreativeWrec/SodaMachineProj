@@ -8,5 +8,12 @@ namespace SodaMachine
 {
     class RootBeer : Can
     {
+        // mem vars/properties
+
+
+        // constructors
+        
+
+        // mem methods
     }
 }

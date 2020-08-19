@@ -10,14 +10,19 @@ namespace SodaMachine
     {
         //Member Variables(Has A)
         protected double value;
-        public double Value;
+        public double Value
+        {
+            get
+            {
+                return value;
+            }
+        }
         public string name;
 
         //Constructor
         public Coin()
         {
-            value { Get };
-            Value { Get };
+            
         }
         //Methods(Can Do)
 

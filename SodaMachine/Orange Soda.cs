@@ -8,5 +8,12 @@ namespace SodaMachine
 {
     class Orange_Soda : Can
     {
+        // mem vars/properties
+
+
+        // constructors
+        
+
+        // mem methods
     }
 }

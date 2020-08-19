@@ -10,6 +10,20 @@ namespace SodaMachine
     {
         static void Main(string[] args)
         {
+            Coin penny = new Penny();
+            double totalChange = 0;
+            totalChange += penny.Value;
+
+            List<int> numbers = new List<int>() { 5, 4, 3, 2, 1 };
+            Console.WriteLine(numbers.Count);
+
+            numbers.Count = 10;
+
+            for(int i = 0; i < numbers.Count; i++)
+            {
+
+            }
+
             Console.WriteLine();
             UserInterface.DisplayOpeningMessage();
 
@@ -25,4 +39,4 @@ namespace SodaMachine
 //3. Ask customer how many they would like to purchase
 
 //Customer
-//
+//4.View

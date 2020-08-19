@@ -8,5 +8,12 @@ namespace SodaMachine
 {
     class Cola : Can
     {
+        // mem vars/properties
+
+
+        // constructors
+        
+
+        // mem methods
     }
 }

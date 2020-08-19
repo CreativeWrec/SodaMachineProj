@@ -14,7 +14,7 @@ namespace SodaMachine
         {
             get
             {
-                return cost
+                return cost;
             }
         }
         public string name;

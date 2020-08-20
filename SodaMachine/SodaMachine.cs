@@ -49,15 +49,65 @@ namespace SodaMachine
 
         }
 
-        public void InsertSodasInMachine()
+        public int InsertSodasInMachine()
         {
             for (int i = 0; i < 10; i++)
             {
                 RootBeer rootBeer = new RootBeer();
                 inventory.Add(rootBeer);
             }
-
+            for (int i = 0; i < 10; i++)
+            {
+                Orange_Soda orange_Soda = new Orange_Soda();
+                inventory.Add(orange_Soda);
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                Cola cola = new Cola();
+                inventory.Add(cola);
+            }
+            return inventory.Count();
         }
+
+        public void BuyingSodaCans(string sodaSelection)
+        {
+            Can sodaToRemove = null;
+
+            for (int i = 0; i < inventory.Count; i++)
+            {
+                Console.WriteLine(inventory[i].name);
+                if(inventory[i].name == sodaSelection) // the name of soda we are on matches 'sodaSelection'
+                {
+                    // inventory.Remove(inventory[i]);
+                    sodaToRemove = inventory[i];
+                    inventory.RemoveAt(i);
+                    break;
+                }
+            }
+
+            if(sodaToRemove != null)
+            {
+                 
+                double changeToAddToRegister = sodaToRemove.Cost;
+                
+                // loop // (should end when we are done adding all coins)
+                // decide which coin to add
+                Quarter quarter = new Quarter();
+                register.Add(quarter);
+                changeToAddToRegister -= quarter.Value;
+                // totalCost .35
+                //////////////////////////////////////////////////////
+
+                register.Add(new Quarter());
+            }
+            else
+            {
+                // whoops...
+            }
+
+            
+        }
+        
      
     }
 }

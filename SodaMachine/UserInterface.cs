@@ -11,6 +11,9 @@ namespace SodaMachine
         public static void DisplayOpeningMessage()
         {
             Console.WriteLine("Welcome to the soda machine!");
+            Console.WriteLine("These items are what's readily available");
+
+
         }
     }
 }

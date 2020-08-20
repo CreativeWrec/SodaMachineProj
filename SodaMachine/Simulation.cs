@@ -20,6 +20,14 @@ namespace SodaMachine
 
         }
         //Methods(Can Do)
+        public void RunSimulation()
+        {
+            // step 1
+            // step 2
+            // step 3
+            sodaMachine.BuyingSodaCans();
+
+        }
 
     }
 }

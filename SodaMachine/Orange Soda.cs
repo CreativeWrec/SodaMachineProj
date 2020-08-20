@@ -12,7 +12,11 @@ namespace SodaMachine
 
 
         // constructors
-        
+        public Orange_Soda()
+        {
+            cost = .06;
+            name = "Orange Soda";
+        }
 
         // mem methods
     }

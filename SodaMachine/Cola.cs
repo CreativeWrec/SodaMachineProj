@@ -8,12 +8,16 @@ namespace SodaMachine
 {
     class Cola : Can
     {
-        // mem vars/properties
+        // Member vars/properties
 
 
-        // constructors
-        
+        // Constructors
+        public Cola()
+        {
+            cost = .35;
+            name = "Cola";
+        }
 
-        // mem methods
+        // Member Methods
     }
 }

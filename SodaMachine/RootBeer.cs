@@ -12,7 +12,11 @@ namespace SodaMachine
 
 
         // constructors
-        
+        public RootBeer()
+        {
+            cost = .60;
+            name = "Root Beer";
+        }
 
         // mem methods
     }

@@ -23,9 +23,13 @@ namespace SodaMachine
         public void RunSimulation()
         {
             // step 1
+            UserInterface.DisplayOpeningMessage();
             // step 2
             // step 3
-            sodaMachine.BuyingSodaCans();
+            string userChoice = UserInterface.AskForSodaType();
+            sodaMachine.BuyingSodaCans(userChoice);
+            //if soda is in the machine, need to know how much it costs
+
 
         }
 
